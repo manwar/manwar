@@ -1,5 +1,4 @@
-<h1 align="center">Hi 👋, I'm Mohammad Sajid Anwar</h1>
-<h3 align="center">Just another Perl hacker.</h3>
+<h1 align="center">Just another Perl hacker !!!</h1>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=manwar&label=Profile%20views&color=0e75b6&style=flat" alt="manwar" /> </p>
 
