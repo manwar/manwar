@@ -4,6 +4,8 @@
 
 - 🔭 I’m currently working on [**The Weekly Challenge**](https://theweeklychallenge.org)
 
+- 🔭 I’m the co-editor of [**Perl Weekly Newsletter**](https://perlweekly.com)
+
 - 📫 You can reach me here: **mohammad.anwar@yahoo.com**
 
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=manwar&" alt="manwar" /></p>
