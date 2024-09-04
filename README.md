@@ -2,7 +2,9 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=manwar&label=Profile%20views&color=0e75b6&style=flat" alt="manwar" /> </p>
 
-- 🔭 I’m currently working on [**The Weekly Challenge**](https://theweeklychallenge.org)
+- 🔭 I’m working full time as **Senior Perl Developer** for [**Oleeo Ltd.**](https://www.oleeo.com)
+
+- 🔭 I’m also working on my side project: [**The Weekly Challenge**](https://theweeklychallenge.org)
 
 - 🔭 I’m the co-editor of [**Perl Weekly Newsletter**](https://perlweekly.com)
 
