@@ -4,11 +4,11 @@
 
 - 🔭 I’m working full time as **Senior Perl Developer** for [**Oleeo Ltd.**](https://www.oleeo.com)
 
-- 🔭 I’m also working on my side project: [**The Weekly Challenge**](https://theweeklychallenge.org)
+- 🔭 I’m also working on my side project: [**The Weekly Challenge**](https://theweeklychallenge.org).
 
-- 🔭 I’m the co-editor of [**Perl Weekly Newsletter**](https://perlweekly.com)
+- 🔭 I’m the co-editor of [**Perl Weekly Newsletter**](https://perlweekly.com).
 
-- 🔭 I’m the [**2022 White Camel Awardee**](https://www.perl.org/advocacy/white_camel)
+- 🔭 I’m the [**2022 White Camel Awardee**](https://www.perl.org/advocacy/white_camel).
 
 - 📫 You can reach me here: **mohammad.anwar@yahoo.com**
 
