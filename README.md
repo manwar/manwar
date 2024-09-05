@@ -8,6 +8,8 @@
 
 - 🔭 I’m the co-editor of [**Perl Weekly Newsletter**](https://perlweekly.com)
 
+- 🔭 I’m the [**2022 White Camel Awardee**](https://www.perl.org/advocacy/white_camel)
+
 - 📫 You can reach me here: **mohammad.anwar@yahoo.com**
 
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=manwar&" alt="manwar" /></p>
