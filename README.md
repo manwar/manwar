@@ -10,6 +10,8 @@
 
 - 🔭 I’m the [**2022 White Camel Awardee**](https://www.perl.org/advocacy/white_camel).
 
+- 🔭 I maintain **100+** distributions on [**MetaCPAN**](https://metacpan.org/author/MANWAR).
+  
 - 🔭 I run and manage, **Dancer2** based personal website: [**https://manwar.org**](https://manwar.org).
 
 - 📫 You can reach me here: **mohammad.anwar@yahoo.com**
