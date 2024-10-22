@@ -12,7 +12,7 @@
 
 - 🔭 I maintain **100+** distributions on [**CPAN**](https://metacpan.org/author/MANWAR).
   
-- 🔭 I run and manage, **Dancer2** based personal website: [**https://manwar.org**](https://manwar.org).
+- 🔭 I run and manage, **Dancer2** based personal website: [**https://manwar.org**](https://manwar.org)
 
 - 📫 You can reach me here: **mohammad.anwar@yahoo.com**
 
