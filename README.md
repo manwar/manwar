@@ -4,7 +4,7 @@
 
 - 🔭 I’m working full time as **Senior Perl Developer** @ [**Oleeo Ltd**](https://www.oleeo.com).
 
-- 🔭 I’m also working on my side project: [**https://theweeklychallenge.org**](https://theweeklychallenge.org)
+- 🔭 I’m also working on my side project: [**The Weekly Challenge**](https://theweeklychallenge.org).
 
 - 🔭 I’m the co-editor of [**Perl Weekly Newsletter**](https://perlweekly.com).
 
