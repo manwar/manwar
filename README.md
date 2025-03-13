@@ -16,7 +16,7 @@
 
 - 📫 You can reach me here: **mohammad.anwar@yahoo.com**
 
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=manwar&" alt="manwar" /></p>
+<p><img align="left" src="https://nirzak-streak-stats.vercel.app/?user=manwar&hide_border=false" alt="manwar" /></p>
 
 <p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=manwar&show_icons=true&locale=en&layout=compact" alt="manwar" /></p>
 
