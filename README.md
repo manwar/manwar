@@ -18,6 +18,4 @@
 
 <p><img align="left" src="https://nirzak-streak-stats.vercel.app/?user=manwar&hide_border=false" alt="manwar" /></p>
 
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=manwar&show_icons=true&locale=en&layout=compact" alt="manwar" /></p>
-
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=manwar&show_icons=true&locale=en" alt="manwar" /></p>
