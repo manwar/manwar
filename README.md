@@ -2,7 +2,8 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=manwar&label=Profile%20views&color=0e75b6&style=flat" alt="manwar" /> </p>
 
- [![Design Patterns in Modern Perl](https://theweeklychallenge.org/images/blog/design-patterns-in-modern-perl.png)](https://perlschool.com/books/design-patterns)
+[![Design Patterns in Modern Perl](https://theweeklychallenge.org/images/blog/design-patterns-in-modern-perl.png)](https://perlschool.com/books/design-patterns)
+<br>[**More details**](https://perlschool.com/books/design-patterns)
 
 - 🔭 I’m working full time as **Senior Perl Developer** @ [**Oleeo Ltd**](https://www.oleeo.com).
 
