@@ -21,6 +21,21 @@
 
 - 📫 You can reach me here: **mohammad.anwar@yahoo.com**
 
-<p><img align="left" src="https://nirzak-streak-stats.vercel.app/?user=manwar&hide_border=false" alt="manwar" /></p>
+<div align="center">
 
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=manwar&show_icons=true&locale=en" alt="manwar" /></p>
+  ## 🏆 GitHub Legend Status
+  
+  ![](https://img.shields.io/badge/Contributions-64K+-orange?style=for-the-badge&logo=github)
+  ![](https://img.shields.io/badge/Longest_Streak-857_Days-success?style=for-the-badge&logo=github)
+  ![](https://img.shields.io/badge/Tenure-14_Years-blue?style=for-the-badge&logo=github)
+
+  <br/>
+
+  <img src="./github-metrics.svg" alt="Main Metrics" width="90%" />
+
+  <br/>
+
+  ## 🛠️ Historic Achievements
+  <img src="https://github.com/ryo-ma/github-profile-trophy/blob/master/img/default/0.png" alt="Trophy" width="400"/>
+
+</div>
