@@ -19,28 +19,23 @@ jobs:
           config_timezone: Europe/London
           filename: github-metrics.svg
           
-          # Plugin: Followup (Status of issues/PRs)
-          plugin_followup: yes
-          plugin_followup_sections: user
-          
-          # Plugin: Isometric Calendar (The 3D view)
+          # Isometric Calendar (This is working well)
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
           
-          # Plugin: Languages
+          # Languages
           plugin_languages: yes
           plugin_languages_sections: most-used
-          plugin_languages_details: percentage
           
-          # Plugin: Habits (STABILITY FIXES ADDED)
+          # Habits (STABILITY LIMITS)
           plugin_habits: yes
-          plugin_habits_from: 200       # Only scan last 200 events
-          plugin_habits_days: 14        # Only look at last 14 days
+          plugin_habits_from: 100       # Only scan last 100 events
+          plugin_habits_days: 7         # Only scan last 7 days
           plugin_habits_facts: yes
-          plugin_habits_charts: yes
+          plugin_habits_charts: no      # Disabling charts saves significant time
           
-          # Plugin: Achievements (STABILITY FIXES ADDED)
+          # Achievements (STABILITY LIMITS)
           plugin_achievements: yes
           plugin_achievements_display: compact
-          plugin_achievements_threshold: B
-          plugin_achievements_limit: 10 # Don't try to fetch hundreds
+          plugin_achievements_threshold: B 
+          plugin_achievements_limit: 10    # Fetch only the top 10
