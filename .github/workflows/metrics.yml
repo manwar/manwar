@@ -19,19 +19,23 @@ jobs:
           config_timezone: Europe/London
           filename: github-metrics.svg
           
-          # Working well
+          # Isometric Calendar (This works well, keep it!)
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
           
-          # LIMITS FOR LARGE ACCOUNTS (Fixes Unexpected Error)
-          plugin_habits: yes
-          plugin_habits_from: 50       # Reduced from 100 to 50
-          plugin_habits_days: 3        # Reduced from 7 to 3
-          plugin_habits_facts: yes
-          plugin_habits_charts: no
+          # Languages (Limit to top languages to save time)
+          plugin_languages: yes
+          plugin_languages_limit: 8
           
-          # LIMITS FOR ACHIEVEMENTS (Fixes Unexpected Error)
+          # Habits (STRICT LIMITS FOR LARGE ACCOUNTS)
+          plugin_habits: yes
+          plugin_habits_from: 50       # Scan only 50 events
+          plugin_habits_days: 3        # Scan only 3 days
+          plugin_habits_facts: yes
+          plugin_habits_charts: no     # Charts often cause timeouts on big accounts
+          
+          # Achievements (STRICT LIMITS FOR LARGE ACCOUNTS)
           plugin_achievements: yes
           plugin_achievements_display: compact
-          plugin_achievements_threshold: X # 'X' only shows the most basic medals
-          plugin_achievements_limit: 5     # Minimum number of badges      
+          plugin_achievements_threshold: B 
+          plugin_achievements_limit: 5     # Only fetch top 5 badges
