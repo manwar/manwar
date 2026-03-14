@@ -15,22 +15,20 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           user: manwar
           template: classic
-          # Trimmed base to remove Repositories and Community stats
           base: header, activity, metadata
           config_timezone: Europe/London
           filename: github-metrics.svg
           
-          # --- FONT & STYLE FIX ---
+          # --- REMOVE LINKS INSIDE SVG ---
+          config_display: regular      # Disables some interactive/link elements
+          base_indepedent: yes         # Makes the SVG more "standalone"
+          # -------------------------------
+
           extra_css: |
             h2, h3, .field, text { 
-              font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif !important; 
+              font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif !important; 
             }
-            .field label { font-weight: 600; }
-          # ------------------------
-
-          # Hide Languages entirely to clean up the layout
-          plugin_languages: no
           
-          # Keep the 3D Calendar
+          plugin_languages: no
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
