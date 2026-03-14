@@ -23,11 +23,19 @@
 
 <div align="center">
 
-  <img src="./github-metrics.svg" alt="GitHub Metrics" width="90%" />
+# 🏆 GitHub Legend Status
 
-  <br/>
-  <hr/>
-  
-  ![](https://img.shields.io/badge/Maintained%20since-2011-blue?style=flat-square)
+<img src="https://img.shields.io/badge/Contributions-64K+-orange?style=for-the-badge&logo=github" alt="Contributions" />
+<img src="https://img.shields.io/badge/Longest_Streak-857_Days-success?style=for-the-badge&logo=github" alt="Streak" />
+<img src="https://img.shields.io/badge/Tenure-14_Years-blue?style=for-the-badge&logo=github" alt="Tenure" />
+
+<br/>
+
+<img src="https://raw.githubusercontent.com/manwar/manwar/main/github-metrics.svg" alt="GitHub Metrics" width="90%" />
+
+<br/>
+<hr/>
+
+<img src="https://img.shields.io/badge/Maintained%20since-2011-blue?style=flat-square" alt="Footer" />
 
 </div>
