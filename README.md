@@ -23,21 +23,11 @@
 
 <div align="center">
 
-<div align="center">
+  <img src="./github-metrics.svg" alt="GitHub Metrics" width="90%" />
 
-# 🏆 GitHub Legend Status
-
-[![Contributions](https://img.shields.io/badge/Contributions-64K+-orange?style=for-the-badge&logo=github)](https://github.com/manwar)
-[![Longest Streak](https://img.shields.io/badge/Longest_Streak-857_Days-success?style=for-the-badge&logo=github)](https://github.com/manwar)
-[![Tenure](https://img.shields.io/badge/Tenure-14_Years-blue?style=for-the-badge&logo=github)](https://github.com/manwar)
-
-<br/>
-
-<img src="./github-metrics.svg" alt="GitHub Metrics" width="90%" />
-
-<br/>
-
-### 🛠️ Historic Achievements
-<img src="https://github-profile-trophy.vercel.app/?username=manwar&theme=flat&column=4&margin-w=15" alt="Trophies" />
+  <br/>
+  <hr/>
+  
+  ![](https://img.shields.io/badge/Maintained%20since-2011-blue?style=flat-square)
 
 </div>
