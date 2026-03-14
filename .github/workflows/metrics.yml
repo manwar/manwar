@@ -19,7 +19,15 @@ jobs:
           config_timezone: Europe/London
           filename: github-metrics.svg
           
-          # These work perfectly for large accounts
+          # --- FONT & STYLE CUSTOMIZATION ---
+          config_padding: 0, 8% # Adds some nice breathing room
+          extra_css: |
+            h2, h3, .field, text { 
+              font-family: 'Segoe UI', Ubuntu, sans-serif !important; 
+            }
+            .field label { font-weight: 600; color: #2f81f7; } /* Modern Blue accent */
+          # ----------------------------------
+
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
           plugin_languages: yes
