@@ -15,21 +15,24 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           user: manwar
           template: classic
-          base: header, activity, community, repositories, metadata
+          # Only include the header and activity (removes community/repositories)
+          base: header, activity, metadata
           config_timezone: Europe/London
           filename: github-metrics.svg
           
-          # --- FONT & STYLE CUSTOMIZATION ---
-          config_padding: 0, 8% # Adds some nice breathing room
+          # --- FONT & STYLE FIX ---
           extra_css: |
             h2, h3, .field, text { 
-              font-family: 'Segoe UI', Ubuntu, sans-serif !important; 
+              font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif !important; 
             }
-            .field label { font-weight: 600; color: #2f81f7; } /* Modern Blue accent */
-          # ----------------------------------
+            .field label { font-weight: 600; }
+          # ------------------------
 
+          # Keep the 3D Calendar but hide the failing sections
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
+          
+          # Simplified Languages
           plugin_languages: yes
           plugin_languages_sections: most-used
-          plugin_followup: yes
+          plugin_languages_limit: 8
