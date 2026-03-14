@@ -23,19 +23,21 @@
 
 <div align="center">
 
-  ## 🏆 GitHub Legend Status
-  
-  ![](https://img.shields.io/badge/Contributions-64K+-orange?style=for-the-badge&logo=github)
-  ![](https://img.shields.io/badge/Longest_Streak-857_Days-success?style=for-the-badge&logo=github)
-  ![](https://img.shields.io/badge/Tenure-14_Years-blue?style=for-the-badge&logo=github)
+<div align="center">
 
-  <br/>
+# 🏆 GitHub Legend Status
 
-  <img src="./github-metrics.svg" alt="Main Metrics" width="90%" />
+[![Contributions](https://img.shields.io/badge/Contributions-64K+-orange?style=for-the-badge&logo=github)](https://github.com/manwar)
+[![Longest Streak](https://img.shields.io/badge/Longest_Streak-857_Days-success?style=for-the-badge&logo=github)](https://github.com/manwar)
+[![Tenure](https://img.shields.io/badge/Tenure-14_Years-blue?style=for-the-badge&logo=github)](https://github.com/manwar)
 
-  <br/>
+<br/>
 
-  ## 🛠️ Historic Achievements
-  <img src="https://github.com/ryo-ma/github-profile-trophy/blob/master/img/default/0.png" alt="Trophy" width="400"/>
+<img src="./github-metrics.svg" alt="GitHub Metrics" width="90%" />
+
+<br/>
+
+### 🛠️ Historic Achievements
+<img src="https://github-profile-trophy.vercel.app/?username=manwar&theme=flat&column=4&margin-w=15" alt="Trophies" />
 
 </div>
