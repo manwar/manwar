@@ -31,11 +31,10 @@
 
 <br/>
 
-<img src="https://raw.githubusercontent.com/manwar/manwar/main/github-metrics.svg" alt="GitHub Metrics" width="90%" />
+<img src="https://img.shields.io/badge/dynamic/json?label=Commits&query=$.assets[?(@.name=='Commits')].value&url=https://raw.githubusercontent.com/manwar/manwar/main/stats.json&style=for-the-badge&color=success&logo=git" alt="Commits" />
 
-<br/>
-<hr/>
+<img src="https://img.shields.io/badge/dynamic/json?label=PRs&query=$.assets[?(@.name=='Pull%20Requests')].value&url=https://raw.githubusercontent.com/manwar/manwar/main/stats.json&style=for-the-badge&color=blue&logo=github" alt="PRs" />
 
-<img src="https://img.shields.io/badge/Maintained%20since-2011-blue?style=flat-square" alt="Footer" />
+<img src="https://img.shields.io/badge/dynamic/json?label=Issues&query=$.assets[?(@.name=='Issues')].value&url=https://raw.githubusercontent.com/manwar/manwar/main/stats.json&style=for-the-badge&color=yellow&logo=github" alt="Issues" />
 
 </div>
