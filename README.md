@@ -25,13 +25,16 @@
 
 # 🏆 GitHub Legend Status
 
-<img src="https://img.shields.io/badge/Contributions-62K+-orange?style=for-the-badge&logo=github" alt="Contributions" />
-<img src="https://img.shields.io/badge/Longest_Streak-857_Days-success?style=for-the-badge&logo=github" alt="Streak" />
-<img src="https://img.shields.io/badge/Tenure-15_Years-blue?style=for-the-badge&logo=github" alt="Tenure" />
+<img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/manwar/manwar/main/commits_endpoint.json&style=for-the-badge&logo=git" alt="Commits" />
+<img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/manwar/manwar/main/prs_endpoint.json&style=for-the-badge&logo=github" alt="PRs" />
+<img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/manwar/manwar/main/stars_endpoint.json&style=for-the-badge&logo=github" alt="Stars" />
 
-<br/>
+<br/><br/>
 
-<img src="https://img.shields.io/badge/dynamic/json?label=Commits&query=$.assets[?(@.name=='Commits')].value&url=https://raw.githubusercontent.com/manwar/manwar/main/stats.json&style=for-the-badge&color=success&logo=git" alt="Commits" />
+<img src="https://raw.githubusercontent.com/manwar/manwar/main/github-metrics.svg" alt="GitHub Metrics" width="90%" />
+
+</div>
+(@.name=='Commits')].value&url=https://raw.githubusercontent.com/manwar/manwar/main/stats.json&style=for-the-badge&color=success&logo=git" alt="Commits" />
 
 <img src="https://img.shields.io/badge/dynamic/json?label=PRs&query=$.assets[?(@.name=='Pull%20Requests')].value&url=https://raw.githubusercontent.com/manwar/manwar/main/stats.json&style=for-the-badge&color=blue&logo=github" alt="PRs" />
 
