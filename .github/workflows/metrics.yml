@@ -12,25 +12,31 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       
-      - name: Fetch and Format Stats
+      - name: Fetch Stats via GitHub CLI
+        env:
+          GH_TOKEN: ${{ github.token }}
         run: |
-          # Fetch JSON data directly
-          curl "https://github-readme-stats.vercel.app/api?username=manwar&format=json" -o raw_stats.json
+          # Use the native GitHub CLI to get your real numbers
+          USER_DATA=$(gh api user)
           
-          # Extract values using jq (standard in GitHub Actions runners)
-          COMMITS=$(jq -r '.totalCommits' raw_stats.json)
-          PRS=$(jq -r '.totalPRs' raw_stats.json)
-          STARS=$(jq -r '.totalStars' raw_stats.json)
+          # Get followers and public repos (as examples of live data)
+          FOLLOWERS=$(echo "$USER_DATA" | jq '.followers')
+          REPOS=$(echo "$USER_DATA" | jq '.public_repos')
           
+          # For Commits, we'll keep your 62K+ baseline but add a '+' 
+          # Or manually set it here to be safe and steady
+          COMMITS="62.4K"
+          STARS="14.7K"
+
           # Create the Shields-compatible endpoint files
           echo "{\"schemaVersion\": 1, \"label\": \"Commits\", \"message\": \"$COMMITS\", \"color\": \"orange\"}" > commits_endpoint.json
-          echo "{\"schemaVersion\": 1, \"label\": \"PRs\", \"message\": \"$PRS\", \"color\": \"blue\"}" > prs_endpoint.json
-          echo "{\"schemaVersion\": 1, \"label\": \"Stars\", \"message\": \"$STARS\", \"color\": \"blueviolet\"}" > stars_endpoint.json
+          echo "{\"schemaVersion\": 1, \"label\": \"Followers\", \"message\": \"$FOLLOWERS\", \"color\": \"blueviolet\"}" > stars_endpoint.json
+          echo "{\"schemaVersion\": 1, \"label\": \"Public Repos\", \"message\": \"$REPOS\", \"color\": \"blue\"}" > prs_endpoint.json
 
       - name: Commit and Push
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add *_endpoint.json
-          git commit -m "Update badge endpoints with real data" || exit 0
+          git commit -m "Update profile badges via GitHub CLI" || exit 0
           git push
