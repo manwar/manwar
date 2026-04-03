@@ -7,28 +7,30 @@ on:
 jobs:
   update-stats:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - uses: actions/checkout@v4
       
       - name: Fetch and Format Stats
         run: |
-          # Fetch the raw data
+          # Fetch JSON data directly
           curl "https://github-readme-stats.vercel.app/api?username=manwar&format=json" -o raw_stats.json
           
-          # Extract values (using simple grep/sed to avoid dependency issues)
-          COMMITS=$(grep -oP '"totalCommits":\K[^,]*' raw_stats.json || echo "0")
-          PRS=$(grep -oP '"totalPRs":\K[^,]*' raw_stats.json || echo "0")
-          STARS=$(grep -oP '"totalStars":\K[^,]*' raw_stats.json || echo "0")
+          # Extract values using jq (standard in GitHub Actions runners)
+          COMMITS=$(jq -r '.totalCommits' raw_stats.json)
+          PRS=$(jq -r '.totalPRs' raw_stats.json)
+          STARS=$(jq -r '.totalStars' raw_stats.json)
           
-          # Create the Shields-compatible endpoint file
-          echo "{\"schemaVersion\": 1, \"label\": \"commits\", \"message\": \"$COMMITS\", \"color\": \"orange\"}" > commits_endpoint.json
+          # Create the Shields-compatible endpoint files
+          echo "{\"schemaVersion\": 1, \"label\": \"Commits\", \"message\": \"$COMMITS\", \"color\": \"orange\"}" > commits_endpoint.json
           echo "{\"schemaVersion\": 1, \"label\": \"PRs\", \"message\": \"$PRS\", \"color\": \"blue\"}" > prs_endpoint.json
-          echo "{\"schemaVersion\": 1, \"label\": \"stars\", \"message\": \"$STARS\", \"color\": \"blueviolet\"}" > stars_endpoint.json
+          echo "{\"schemaVersion\": 1, \"label\": \"Stars\", \"message\": \"$STARS\", \"color\": \"blueviolet\"}" > stars_endpoint.json
 
       - name: Commit and Push
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add *_endpoint.json
-          git commit -m "Update badge endpoints" || exit 0
+          git commit -m "Update badge endpoints with real data" || exit 0
           git push
