@@ -26,18 +26,9 @@
 # 🏆 GitHub Legend Status
 
 <img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/manwar/manwar/main/commits_endpoint.json&style=for-the-badge&logo=git" alt="Commits" />
-<img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/manwar/manwar/main/prs_endpoint.json&style=for-the-badge&logo=github" alt="PRs" />
-<img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/manwar/manwar/main/stars_endpoint.json&style=for-the-badge&logo=github" alt="Stars" />
 
-<br/><br/>
+<img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/manwar/manwar/main/prs_endpoint.json&style=for-the-badge&logo=github" alt="Repos" />
 
-<img src="https://raw.githubusercontent.com/manwar/manwar/main/github-metrics.svg" alt="GitHub Metrics" width="90%" />
-
-</div>
-(@.name=='Commits')].value&url=https://raw.githubusercontent.com/manwar/manwar/main/stats.json&style=for-the-badge&color=success&logo=git" alt="Commits" />
-
-<img src="https://img.shields.io/badge/dynamic/json?label=PRs&query=$.assets[?(@.name=='Pull%20Requests')].value&url=https://raw.githubusercontent.com/manwar/manwar/main/stats.json&style=for-the-badge&color=blue&logo=github" alt="PRs" />
-
-<img src="https://img.shields.io/badge/dynamic/json?label=Issues&query=$.assets[?(@.name=='Issues')].value&url=https://raw.githubusercontent.com/manwar/manwar/main/stats.json&style=for-the-badge&color=yellow&logo=github" alt="Issues" />
+<img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/manwar/manwar/main/stars_endpoint.json&style=for-the-badge&logo=github" alt="Followers" />
 
 </div>
