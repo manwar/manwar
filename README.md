@@ -20,15 +20,3 @@
 - 🔭 I run and manage, **Dancer2** powered personal website: [**https://manwar.org**](https://manwar.org)
 
 - 📫 You can reach me here: **mohammad.anwar@yahoo.com**
-
-<div align="center">
-
-# 🏆 GitHub Legend Status
-
-<img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/manwar/manwar/main/commits_endpoint.json&style=for-the-badge&logo=git" alt="Commits" />
-
-<img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/manwar/manwar/main/prs_endpoint.json&style=for-the-badge&logo=github" alt="Repos" />
-
-<img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/manwar/manwar/main/stars_endpoint.json&style=for-the-badge&logo=github" alt="Followers" />
-
-</div>
