@@ -1,8 +1,8 @@
 name: Update Profile Stats
 on:
   schedule:
-    - cron: '0 0 * * *' # Runs every night at midnight
-  workflow_dispatch: # Allows you to run it manually
+    - cron: '0 0 * * *'
+  workflow_dispatch:
 
 jobs:
   update-stats:
@@ -10,15 +10,25 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       
-      - name: Fetch Stats
+      - name: Fetch and Format Stats
         run: |
-          # Fetching your data from the GitHub Stats API
-          curl "https://github-readme-stats.vercel.app/api?username=manwar&format=json" -o stats.json
+          # Fetch the raw data
+          curl "https://github-readme-stats.vercel.app/api?username=manwar&format=json" -o raw_stats.json
           
+          # Extract values (using simple grep/sed to avoid dependency issues)
+          COMMITS=$(grep -oP '"totalCommits":\K[^,]*' raw_stats.json || echo "0")
+          PRS=$(grep -oP '"totalPRs":\K[^,]*' raw_stats.json || echo "0")
+          STARS=$(grep -oP '"totalStars":\K[^,]*' raw_stats.json || echo "0")
+          
+          # Create the Shields-compatible endpoint file
+          echo "{\"schemaVersion\": 1, \"label\": \"commits\", \"message\": \"$COMMITS\", \"color\": \"orange\"}" > commits_endpoint.json
+          echo "{\"schemaVersion\": 1, \"label\": \"PRs\", \"message\": \"$PRS\", \"color\": \"blue\"}" > prs_endpoint.json
+          echo "{\"schemaVersion\": 1, \"label\": \"stars\", \"message\": \"$STARS\", \"color\": \"blueviolet\"}" > stars_endpoint.json
+
       - name: Commit and Push
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add stats.json
-          git commit -m "Update profile stats JSON" || exit 0
+          git add *_endpoint.json
+          git commit -m "Update badge endpoints" || exit 0
           git push
