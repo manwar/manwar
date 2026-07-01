@@ -2,8 +2,37 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=manwar&label=Profile%20views&color=0e75b6&style=flat" alt="manwar" /> </p>
 
-[![Design Patterns in Modern Perl](https://theweeklychallenge.org/images/blog/design-patterns-in-modern-perl.png)](https://perlschool.com/books/design-patterns)
-<br>[**More details**](https://perlschool.com/books/design-patterns)
+## My Work & Apps
+<table>
+  <tr>
+    <td align="center" valign="top">
+      <a href="https://perlschool.com/books/design-patterns">
+        <img src="https://theweeklychallenge.org/images/blog/design-patterns-in-modern-perl.png" width="150" alt="Design Patterns in Modern Perl">
+      </a>
+    </td>
+    <td align="center" valign="top">
+      <a href="https://play.google.com/store/apps/details?id=org.theweeklychallenge.app">
+        <img src="https://theweeklychallenge.org/images/twc.png" width="150" alt="The Weekly Challenge App">
+      </a>
+    </td>
+    <td align="center" valign="top">
+      <a href="https://play.google.com/store/apps/details?id=org.manwar.athanapp">
+        <img src="https://theweeklychallenge.org/images/athan.png" width="150" alt="Athan App">
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" valign="top">
+      <a href="https://perlschool.com/books/design-patterns"><strong>More details</strong></a>
+    </td>
+    <td align="center" valign="top">
+      <a href="YOUR_APP_LINK_1"><strong>The Weekly Challenge App</strong></a>
+    </td>
+    <td align="center" valign="top">
+      <a href="YOUR_APP_LINK_2"><strong>Athan App</strong></a>
+    </td>
+  </tr>  
+</table>
 
 - 🔭 I’m working full time as **Senior Perl Developer** @ [**Oleeo Ltd**](https://www.oleeo.com).
 
