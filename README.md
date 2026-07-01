@@ -16,7 +16,7 @@
     </td>
     <td align="center" valign="top">
       <a href="https://play.google.com/store/apps/details?id=org.manwar.athanapp">
-        <img src="https://theweeklychallenge.org/images/athan.png" width="150" alt="Athan App">
+        <img src="https://theweeklychallenge.org/images/athan.png" width="150" alt="The Athan App">
       </a>
     </td>
   </tr>
@@ -28,7 +28,7 @@
       <a href="https://play.google.com/store/apps/details?id=org.theweeklychallenge.app"><strong>The Weekly Challenge App</strong></a>
     </td>
     <td align="center" valign="top">
-      <a href="https://play.google.com/store/apps/details?id=org.manwar.athanapp"><strong>Athan App</strong></a>
+      <a href="https://play.google.com/store/apps/details?id=org.manwar.athanapp"><strong>The Athan App</strong></a>
     </td>
   </tr>  
 </table>
