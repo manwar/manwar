@@ -2,7 +2,6 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=manwar&label=Profile%20views&color=0e75b6&style=flat" alt="manwar" /> </p>
 
-## My Work & Apps
 <table>
   <tr>
     <td align="center" valign="top">
@@ -26,10 +25,10 @@
       <a href="https://perlschool.com/books/design-patterns"><strong>More details</strong></a>
     </td>
     <td align="center" valign="top">
-      <a href="YOUR_APP_LINK_1"><strong>The Weekly Challenge App</strong></a>
+      <a href="https://play.google.com/store/apps/details?id=org.theweeklychallenge.app"><strong>The Weekly Challenge App</strong></a>
     </td>
     <td align="center" valign="top">
-      <a href="YOUR_APP_LINK_2"><strong>Athan App</strong></a>
+      <a href="https://play.google.com/store/apps/details?id=org.manwar.athanapp"><strong>Athan App</strong></a>
     </td>
   </tr>  
 </table>
