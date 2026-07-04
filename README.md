@@ -41,7 +41,7 @@
 
 - 🔭 I’m the [**2022 White Camel Awardee**](https://www.perl.org/advocacy/white_camel).
 
-- 🔭 I maintain **100+** distributions on [**CPAN**](https://metacpan.org/author/MANWAR).
+- 🔭 I maintain **120+** distributions on [**CPAN**](https://metacpan.org/author/MANWAR).
 
 - 🔭 I run coding [**YouTube channel**](https://www.youtube.com/c/mohammadsajidanwar).
   
