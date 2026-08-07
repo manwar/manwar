@@ -5,7 +5,7 @@
 <table>
   <tr>
     <td align="center" valign="top">
-      <a href="https://perlschool.com/books/design-patterns">
+      <a href="https://design-patterns-in-modern-perl.com">
         <img src="https://theweeklychallenge.org/images/blog/design-patterns-in-modern-perl.png" width="150" alt="Design Patterns in Modern Perl">
       </a>
     </td>
@@ -22,7 +22,7 @@
   </tr>
   <tr>
     <td align="center" valign="top">
-      <a href="https://perlschool.com/books/design-patterns"><strong>The Book</strong></a>
+      <a href="https://design-patterns-in-modern-perl.com"><strong>The Book</strong></a>
     </td>
     <td align="center" valign="top">
       <a href="https://play.google.com/store/apps/details?id=org.theweeklychallenge.app"><strong>The Weekly Challenge App</strong></a>
